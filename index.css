@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:fantasy;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.box{
+    text-align: center;
+}
+
+.hours, .minutes, .seconds, .amorpm {
+    width: 4em;
+    height: 4em;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: black;
+    box-shadow: 3px 3px 9px #ea1212, -3px -3px 9px #763d3d;
+}
+
+#hours,#minutes,#seconds,#amorpm{
+    font-size: 2em;
+    color: white;
+}
+
+.box > h1{
+    font-size: 1em;
+    color: white;
+}
+
+
